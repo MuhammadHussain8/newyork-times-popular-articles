@@ -1,12 +1,56 @@
-# React + Vite
+# New York Times Most Popular Articles
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+This project displays the most popular articles from the New York Times. It uses the NYT API and is built with React (Vite), Tailwind CSS, and Context API for state management. It also includes unit testing with Jest and React Testing Library.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Setup
 
-## Expanding the ESLint configuration
+1. **Clone the Project**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+2. **Create a `.env` File**
+
+Inside the project root, create a `.env` file and add the following variables:
+
+```
+VITE_NYT_API_KEY=Your api key
+VITE_NYT_API_URL=https://api.nytimes.com/svc/mostpopular/v2/viewed/
+```
+
+3. **Get an API Key**
+
+To get your API key, sign up at:
+
+https://developer.nytimes.com/get-started
+
+Create a new app and copy your API key to use in the `.env` file.
+
+4. **Install Dependencies**
+
+```bash
+npm install
+```
+
+5. **Run in Development Mode**
+
+```bash
+npm run dev
+```
+
+## Deployment
+
+The project is deployed on Vercel and available at:
+
+[https://newyork-times-popular-articles-jq9l9qwzg.vercel.app/](https://newyork-times-popular-articles-jq9l9qwzg.vercel.app/)
+
+## Contact
+
+For any help or questions, contact:
+
+**Muhammad Hussain**  
+muhammadhussain2644@gmail.com
