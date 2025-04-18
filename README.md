@@ -2,15 +2,15 @@
 
 ## Introduction
 
-This project displays the most popular articles from the New York Times. It uses the NYT API and is built with React (Vite), Tailwind CSS, and Context API for state management. It also includes unit testing with Jest and React Testing Library.
+This project displays the most popular articles from the New York Times. It uses the NYT API and is built with React (Vite), Tailwind CSS, and Context API for state management.
 
 ## How to Setup
 
 1. **Clone the Project**
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git git@github.com:MuhammadHussain8/newyork-times-popular-articles.git
+cd newyork-times-popular-articles
 ```
 
 2. **Create a `.env` File**
